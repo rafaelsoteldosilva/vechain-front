@@ -65,13 +65,10 @@ Shows the app's footer
 
 ## <ins>components/NavBar.js</ins>
 
-Shows the app's Navigation Bar. This component is invoked by the component `MainPage.js`
-
-![image](./imagesForReadme/navbar.jpg)
+Shows the app's Navigation Bar. This component is invoked by the component `MainPage.js` ![image](./imagesForReadme/navbar.jpg)
 
 When there are marked videos for deletion, the nav bar alerts the user
-
-![image](./imagesForReadme/deletionwarning.jpg)
+![image1](./imagesForReadme/deletionwarning.jpg)
 
 It is done with the use of material ui badge:
 
@@ -133,7 +130,7 @@ It makes the left drawer, the app header and the app footer available for the us
 
 ## <ins>components/PersistentLeftDrawer.js</ins>
 
-Once there are videos marked for deletion, the NavBar alerts the user ![image](./imagesForReadme/deletionwarning.jpg) and shows two options:
+Once there are videos marked for deletion, the NavBar alerts the user ![image2](./imagesForReadme/deletionWarning.jpg) and shows two options:
 
 -  Delete Selected
 -  Reset Selected
