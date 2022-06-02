@@ -18,7 +18,7 @@ It's purpose is internal use, to manage the videos that will be shown in a futur
 
 It is not finished, but it's completely functional
 
-It shows a series of videos, in the meantime, they are preloaded into the database, for development, but in the future, it should be whatever video the users load into the DB
+It shows a series of videos initially preloaded into the database, for development, but in the future, it should be whatever video the users load into the DB
 
 The purpose is to have a page that shows videos, for different purposes, like recent jobs, news about NFT, etc.
 
