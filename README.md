@@ -68,7 +68,7 @@ Shows the app's footer
 Shows the app's Navigation Bar. This component is invoked by the component `MainPage.js` ![image](./imagesForReadme/navbar.jpg)
 
 When there are marked videos for deletion, the nav bar alerts the user
-![image1](./imagesForReadme/deletionwarning.jpg)
+![image1](./imagesForReadme/deletionWarning.jpg)
 
 It is done with the use of material ui badge:
 
