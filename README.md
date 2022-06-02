@@ -130,14 +130,14 @@ It makes the left drawer, the app header and the app footer available for the us
 
 ## <ins>components/PersistentLeftDrawer.js</ins>
 
-Once there are videos marked for deletion, the NavBar alerts the user ![image2](./imagesForReadme/deletionWarning.jpg) and shows two options:
+Once there are videos marked for deletion, the NavBar alerts the user ![image2](./imagesForReadme/deletionWarning.jpg) and shows two options in the drawer:
 
 -  Delete Selected
 -  Reset Selected
 
 As the selected videos for deletion have their own redux state, they are available for all app's components, including the drawer
 
-Everytime ShowVideosWithVideoCategoryBreaks.js is rendered, it rebuilds the drawerItemsList, checking for selectedVideos.length, if it's > 0, it enables the item, otherwise, it disables it
+Everytime `ShowVideosWithVideoCategoryBreaks.js` is rendered, it rebuilds the `drawerItemsList`, checking for `selectedVideos.length`, if it's > 0, it enables the item, otherwise, it disables it
 
 ```jsx
 // src/Pages/ShowVideosWithVideoCategoryBreaks.js
