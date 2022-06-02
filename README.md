@@ -69,7 +69,9 @@ Shows the app's Navigation Bar. This component is invoked by the component `Main
 
 ![image](./imagesForReadme/navbar.jpg)
 
-When there are marked videos for deletion, the nav bar alerts the user ![image](./imagesForReadme/deletionwarning.jpg)
+When there are marked videos for deletion, the nav bar alerts the user
+
+![image](./imagesForReadme/deletionwarning.jpg)
 
 It is done with the use of material ui badge:
 
