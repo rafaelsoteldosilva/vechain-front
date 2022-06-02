@@ -28,7 +28,7 @@ Each video shown in the screen, include a social media button, that will let use
 
 The user is presented with a Show Videos page, an Add Videos and Categories page, and manage Categories Page
 
-![image](./imagesForReadme/header.jpg)
+![image](./imagesForReadme/navbar.jpg)
 
 It is structured as follows:
 
