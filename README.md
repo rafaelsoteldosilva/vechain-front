@@ -16,7 +16,7 @@ This app is the frontend for vechain-back
 
 It's purpose is internal use, to manage the videos that will be shown in a future project
 
-It is not finished in it's functionality
+It is not finished, but it's completely functional
 
 It shows a series of videos, in the meantime, they are preloaded into the database, for development, but in the future, it should be whatever video the users load into the DB
 
