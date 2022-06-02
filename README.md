@@ -554,3 +554,7 @@ const App = () => {
    );
 };
 ```
+
+## **index.js**
+
+It inserts the whole app into the root element, and insert BrowserRouter, which uses the HTML5 history API
