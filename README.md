@@ -127,9 +127,9 @@ It makes the left drawer, the navBar and the app footer available for the user i
    );
 ```
 
-![image](./imagesForReadme/leftDrawerAndFooter.jpg)
-
 ## <ins>components/PersistentLeftDrawer.js</ins>
+
+![image](./imagesForReadme/leftDrawerAndFooter.jpg)
 
 Once there are videos marked for deletion, the drawer shows two options:
 
