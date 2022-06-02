@@ -96,7 +96,7 @@ This component wraps all page invocations. It is in charge of invoking the navBa
 ...
 ```
 
-It makes the left drawer, the app header and the app footer available for the user interface, all the time
+It makes the left drawer, the navBar and the app footer available for the user interface, all the time
 
 ```jsx
    return (
