@@ -10,7 +10,7 @@ Main technologies used:
 -  Redux,
 -  Material-ui,
 -  React Router Dom,
--  Consuming an Api
+-  Consuming an API developed for this front, that uses PostGreSQL
 
 ---
 
