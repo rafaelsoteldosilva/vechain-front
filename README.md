@@ -10,7 +10,7 @@ Main technologies used: React, redux, material-ui, React Router Dom, Consuming A
 
 <p align="center">
   <a href="http://google.com.au/" rel="some text">
-     <img src="./imagesForReadme/vechainFront.jpg" width="600" alt="serenityFront-youtube"/>
+     <img src="./imagesForReadme/vechainFront.jpg" width="700" alt="serenityFront-youtube"/>
   </a>
 </p>
 
@@ -33,7 +33,7 @@ Each video shown in the screen, include a social media button, that will let use
 The user is presented with a Show Videos page, an Add Videos and Categories page, and manage Categories Page
 
 <p align="center">
-   <img src="./imagesForReadme/navbar.jpg" width="600" alt="navbar"/>
+   <img src="./imagesForReadme/navbar.jpg" width="700" alt="navbar"/>
 </p>
 
 It is structured as follows:
@@ -70,7 +70,7 @@ Contains the dialogs used in the app:
 Shows the app's footer
 
 <p align="center">
-   <img src="./imagesForReadme/footer.jpg" width="600" alt="footer"/>
+   <img src="./imagesForReadme/footer.jpg" width="700" alt="footer"/>
 </p>
 
 ## <ins>components/NavBar.js</ins>
@@ -78,13 +78,13 @@ Shows the app's footer
 Shows the app's Navigation Bar. This component is invoked by the component `MainPage.js`
 
 <p align="center">
-   <img src="./imagesForReadme/navbar.jpg" width="600" alt="navbar"/>
+   <img src="./imagesForReadme/navbar.jpg" width="700" alt="navbar"/>
 </p>
 
 When there are marked videos for deletion, the nav bar alerts the user:
 
 <p align="center">
-   <img src="./imagesForReadme/deletionWarning.jpg" width="600" alt="deletionWarning"/>
+   <img src="./imagesForReadme/deletionWarning.jpg" width="700" alt="deletionWarning"/>
 </p>
 
 It is done with the use of material ui badge:
@@ -146,7 +146,7 @@ It makes the left drawer, the navBar and the app footer available for the user i
 ## <ins>components/PersistentLeftDrawer.js</ins>
 
 <p align="center">
-   <img src="./imagesForReadme/leftDrawerAndFooter.jpg" width="600" alt="leftDrawerAndFooter"/>
+   <img src="./imagesForReadme/leftDrawerAndFooter.jpg" width="700" alt="leftDrawerAndFooter"/>
 </p>
 
 Once there are videos marked for deletion, the drawer shows two options:
@@ -318,7 +318,7 @@ The pages are:
 ## <ins>Pages/AddVideosAndCategories.js</ins>
 
 <p align="center">
-   <img src="./imagesForReadme/AddVideosAndCategories.jpg" width="600" alt="fields"/>
+   <img src="./imagesForReadme/AddVideosAndCategories.jpg" width="700" alt="fields"/>
 </p>
 
 It is a form that takes the info of a new video, and adds it to the database.
@@ -338,7 +338,7 @@ The upload date is required to be less or equal to today's date
 The user has to select a category from the list (which are in the categories redux state), if it doesn't exist, the user has the option to create it
 
 <p align="center">
-   <img src="./imagesForReadme/fields.jpg" width="600" alt="fields"/>
+   <img src="./imagesForReadme/fields.jpg" width="700" alt="fields"/>
 </p>
 
 These are the default appearances of material ui fields
@@ -354,13 +354,13 @@ The rest are required to be non-null
 ## <ins>Pages/Managecategories.js</ins>
 
 <p align="center">
-   <img src="./imagesForReadme/managecategories.jpg" width="600" alt="managecategories"/>
+   <img src="./imagesForReadme/managecategories.jpg" width="700" alt="managecategories"/>
 </p>
 
 With this funcionality, the user can add, edit, and delete categories, and set the order as they will appear in the show videos screen (`ShowVideosWithCategoryBreaks.js`)
 
 <p align="center">
-   <img src="./imagesForReadme/categoriesorder.jpg" width="600" alt="categoriesorder"/>
+   <img src="./imagesForReadme/categoriesorder.jpg" width="700" alt="categoriesorder"/>
 </p>
 
 The categories are reordered in the database, using the corresponding action, for instance, in order to move a category down, we call the action:
@@ -387,7 +387,7 @@ which in turn, calls the corresponding endpoint from the backend
 ## <ins>Pages/ShowVideosWithCategoryBreaks.js</ins>
 
 <p align="center">
-   <img src="./imagesForReadme/showvideos.jpg" width="600" alt="showvideos"/>
+   <img src="./imagesForReadme/showvideos.jpg" width="700" alt="showvideos"/>
 </p>
 
 It performs a map through the videoCategories redux state array, which includes the categrories and the videos inside that category
