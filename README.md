@@ -32,7 +32,9 @@ Each video shown in the screen, include a social media button, that will let use
 
 The user is presented with a Show Videos page, an Add Videos and Categories page, and manage Categories Page
 
-![image](./imagesForReadme/navbar.jpg)
+<p align="center">
+   <img src="./imagesForReadme/navbar.jpg" width="600" alt="navbar"/>
+</p>
 
 It is structured as follows:
 
@@ -48,7 +50,9 @@ It is structured as follows:
 
 The files will be explained as they appear in the project
 
-![image](./imagesForReadme/theProject.jpg)
+<p align="center">
+   <img src="./imagesForReadme/theProject.jpg" alt="theProject"/>
+</p>
 
 ## **The components folder**
 
@@ -65,15 +69,23 @@ Contains the dialogs used in the app:
 
 Shows the app's footer
 
-![image](./imagesForReadme/footer.jpg)
+<p align="center">
+   <img src="./imagesForReadme/footer.jpg" width="600" alt="footer"/>
+</p>
 
 ## <ins>components/NavBar.js</ins>
 
-Shows the app's Navigation Bar. This component is invoked by the component `MainPage.js` ![image](./imagesForReadme/navbar.jpg)
+Shows the app's Navigation Bar. This component is invoked by the component `MainPage.js`
+
+<p align="center">
+   <img src="./imagesForReadme/navbar.jpg" width="600" alt="navbar"/>
+</p>
 
 When there are marked videos for deletion, the nav bar alerts the user:
 
-![image1](./imagesForReadme/deletionWarning.jpg)
+<p align="center">
+   <img src="./imagesForReadme/deletionWarning.jpg" width="600" alt="deletionWarning"/>
+</p>
 
 It is done with the use of material ui badge:
 
@@ -133,7 +145,9 @@ It makes the left drawer, the navBar and the app footer available for the user i
 
 ## <ins>components/PersistentLeftDrawer.js</ins>
 
-![image](./imagesForReadme/leftDrawerAndFooter.jpg)
+<p align="center">
+   <img src="./imagesForReadme/leftDrawerAndFooter.jpg" width="600" alt="leftDrawerAndFooter"/>
+</p>
 
 Once there are videos marked for deletion, the drawer shows two options:
 
@@ -303,7 +317,9 @@ The pages are:
 
 ## <ins>Pages/AddVideosAndCategories.js</ins>
 
-![image](./imagesForReadme/AddVideosAndCategories.jpg)
+<p align="center">
+   <img src="./imagesForReadme/AddVideosAndCategories.jpg" width="600" alt="fields"/>
+</p>
 
 It is a form that takes the info of a new video, and adds it to the database.
 
@@ -321,23 +337,31 @@ The upload date is required to be less or equal to today's date
 
 The user has to select a category from the list (which are in the categories redux state), if it doesn't exist, the user has the option to create it
 
-![image](./imagesForReadme/fields.jpg)
+<p align="center">
+   <img src="./imagesForReadme/fields.jpg" width="600" alt="fields"/>
+</p>
 
 These are the default appearances of material ui fields
 
 The calendar field for the uploadDate:
 
-![image](./imagesForReadme/calendar.jpg)
+<p align="center">
+   <img src="./imagesForReadme/calendar.jpg" alt="calendar"/>
+</p>
 
 The rest are required to be non-null
 
 ## <ins>Pages/Managecategories.js</ins>
 
-![image](./imagesForReadme/managecategories.jpg)
+<p align="center">
+   <img src="./imagesForReadme/managecategories.jpg" width="600" alt="managecategories"/>
+</p>
 
 With this funcionality, the user can add, edit, and delete categories, and set the order as they will appear in the show videos screen (`ShowVideosWithCategoryBreaks.js`)
 
-![image](./imagesForReadme/categoriesorder.jpg)
+<p align="center">
+   <img src="./imagesForReadme/categoriesorder.jpg" width="600" alt="categoriesorder"/>
+</p>
 
 The categories are reordered in the database, using the corresponding action, for instance, in order to move a category down, we call the action:
 
@@ -362,7 +386,9 @@ which in turn, calls the corresponding endpoint from the backend
 
 ## <ins>Pages/ShowVideosWithCategoryBreaks.js</ins>
 
-![image](./imagesForReadme/showvideos.jpg)
+<p align="center">
+   <img src="./imagesForReadme/showvideos.jpg" width="600" alt="showvideos"/>
+</p>
 
 It performs a map through the videoCategories redux state array, which includes the categrories and the videos inside that category
 
