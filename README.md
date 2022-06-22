@@ -10,7 +10,7 @@ Main technologies used: React, redux, material-ui, React Router Dom, Consuming A
 
 <p align="center">
   <a href="http://google.com.au/" rel="some text">
-     <img src="./imagesForReadme/vechain-front.jpg" width="600" alt="serenity-front-youtube"/>
+     <img src="./imagesForReadme/vechainFront.jpg" width="600" alt="serenityFront-youtube"/>
   </a>
 </p>
 
