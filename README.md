@@ -4,7 +4,13 @@ Date: december 2021
 
 Author: Rafael Soteldo
 
-Main technologies used: React, redux, material-ui, React Router Dom, Consuming Api
+Main technologies used:
+
+-  React,
+-  Redux,
+-  Material-ui,
+-  React Router Dom,
+-  Consuming an Api
 
 ---
 
